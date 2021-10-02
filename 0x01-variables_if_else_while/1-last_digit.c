@@ -18,11 +18,11 @@ int main(void)
 	end = n % 10;
 	printf("%s %d %s %d ", d, n, "is", end);
 	if (end > 5)
-		printf("%s\n", "and is greater tham 5");
+		printf("%s\n", "and is greater than 5");
 	else if (end == 0)
 		printf("%s\n", "and is 0");
 	else
-		printf("%s\n", "and is less tham 6 and not 0");
+		printf("%s\n", "and is less than 6 and not 0");
 	return (0);
 
 }
