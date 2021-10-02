@@ -19,10 +19,10 @@ int main(void)
 	printf("%s %d %s %d ", d, n, "is", end);
 	if (end > 5)
 		printf("%s\n", "and is greater tham 5");
-	if (end == 0)
+	else if (end == 0)
 		printf("%s\n", "and is 0");
 	else
-		printf("%s\n", "and id less than 6 and not 0");
+		printf("%s\n", "and is less than 6 and not 0");
 	return (0);
 
 }
