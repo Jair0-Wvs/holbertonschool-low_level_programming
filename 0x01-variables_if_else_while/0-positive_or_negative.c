@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Enter poin
+ * main - Enter point
  *
- * Return
+ * Return: Always 0 (success)
  *
  */
 int main(void)
